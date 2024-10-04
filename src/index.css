@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+  color: #f1c40f;
+}
+
+.navigation_item:hover {
+  color: #f1c40f;
+  transition-duration: 200ms;
+}
