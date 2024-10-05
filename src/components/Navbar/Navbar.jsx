@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/Logo/Mahamaya_logo.webp'
+import logo from '../../assets/Logo/Mahamaya_logo_1.webp'
 
 const Navbar = () => {
 
@@ -12,11 +12,11 @@ const Navbar = () => {
     </>
 
     return (
-        <div>
+        <div className=' sticky top-0 z-10'>
             <nav className="bg-[#7F8C8D] border-gray-200 dark:bg-gray-900">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
                     <Link to={'/'} href="https://flowbite.com/" className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src={logo} className="h-8" alt="Flowbite Logo" />
+                        <img src={logo} className="h-10 rounded-full" alt="Flowbite Logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Mahamaya</span>
                     </Link>
                     <div className="flex items-center md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
