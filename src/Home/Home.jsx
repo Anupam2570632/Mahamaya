@@ -1,7 +1,9 @@
+import HeroSLider from "../components/HeroSlider/HeroSLider";
+
 const Home = () => {
     return (
-        <div className="min-h-[70vh]">
-            Home page
+        <div className="">
+            <HeroSLider/>
         </div>
     );
 };
